@@ -7,7 +7,12 @@
  3. -threads    = how many DDoS sessions to start
  4. -duration   = how long it lasts
  
- 
+# installation 
+
+1. git clone or code>download as zip
+2. extract the folder
+3. delete the zip file after extracting
+4. done!
  
 # usage
 1. install python with path enabled
