@@ -21,7 +21,7 @@ try:
     input(Fore.WHITE + "[" + Fore.RED + "+" + Fore.WHITE + "]" " Press [ENTER] to start")
 except SyntaxError:
     pass
-list_of_files = glob.glob(r'C:\users\{}\AppData\Local\Roblox\logs\*'.format(username))
+list_of_files = glob.glob(r'C:\\users\\{}\AppData\\Local\\Roblox\\logs\\*'.format(username))
 latest_file = max(list_of_files, key=os.path.getctime)
 roblox_log = open(latest_file, 'r')
 
